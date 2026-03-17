@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+:root {
+  --sidebar-color: #2596be;
+  --card-accent: #f0b429;
+}
+
 html {
   height: 100%;
 }
@@ -12,6 +17,11 @@ body {
   grid-template: 1fr 6fr / 2fr 7fr;
 }
 
+.sidebar-header {
+  display: flex;
+  flex: 0 1 0;
+}
+
 header {
   background-color: chocolate;
   grid-column: 2/3;
@@ -20,10 +30,11 @@ header {
 
 nav {
   display: grid;
-  background-color: lightblue;
+  background-color: var(--sidebar-color);
   grid-column: 1/2;
   grid-row: 1/3;
   grid-template-rows: 6fr 4fr;
+  color: white;
 }
 
 nav .sidebar-wrapper {

@@ -26,6 +26,7 @@ header {
 .sidebar-row {
   display: flex;
   align-items: center;
+  gap: 0.5em;
   
 }
 
@@ -46,12 +47,12 @@ nav .sidebar-wrapper {
 }
 
 nav .sidebar-header {
-  outline: 1px solid red;
-  font-size: 1.2rem;
+  /* outline: 1px solid red; */
+  font-size: 1.4rem;
 }
 
 nav .sidebar-section {
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   display: grid;
 }
 
@@ -61,7 +62,17 @@ main {
   grid-row: 2/3;
 }
 
-/* ICONS CSS */
+/* IMPORT FONTS AND ICONS */
+
+
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
 
 .material-symbols-outlined {
   font-variation-settings:

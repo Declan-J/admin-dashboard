@@ -17,15 +17,16 @@ body {
   grid-template: 1fr 6fr / 2fr 7fr;
 }
 
-.sidebar-header {
-  display: flex;
-  flex: 0 1 0;
-}
-
 header {
   background-color: chocolate;
   grid-column: 2/3;
   grid-row: 1/2;
+}
+
+.sidebar-row {
+  display: flex;
+  align-items: center;
+  
 }
 
 nav {
@@ -46,7 +47,7 @@ nav .sidebar-wrapper {
 
 nav .sidebar-header {
   outline: 1px solid red;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 nav .sidebar-section {
@@ -58,4 +59,14 @@ main {
   background-color: gray;
   grid-column: 2/3;
   grid-row: 2/3;
+}
+
+/* ICONS CSS */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }

@@ -34,7 +34,6 @@ header {
   padding: 10px;
   grid-column: 1/2;
   align-items: center;
-  margin-right: 50px;
 }
 
 .search > input {
@@ -55,7 +54,18 @@ header {
   margin-right: 50px;
 }
 
+/* TODO: Make the account circle an image and then display the greeting pane appropriately. */
+
 .greeting-pane {
+  outline: 1px solid rosybrown;
+}
+
+.sub-text {
+  font-size: 0.7rem;
+}
+
+.bold-text {
+  font-size: 1.2rem;
 }
 
 .buttons-panel {

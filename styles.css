@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-color: chocolate;
+  background-color: rgb(#fff);
   grid-column: 2/3;
   grid-row: 1/2;
 }

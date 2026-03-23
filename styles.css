@@ -147,6 +147,12 @@ main {
   grid-column: 2/3;
   grid-row: 2/3;
   grid-template-columns: 4fr 2fr;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.project {
+  display: grid;
 }
 
 /* IMPORT FONTS AND ICONS */

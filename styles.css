@@ -146,13 +146,25 @@ main {
   background-color: gray;
   grid-column: 2/3;
   grid-row: 2/3;
-  grid-template-columns: 4fr 2fr;
-  padding-top: 16px;
-  padding-left: 16px;
+  grid-template-columns: 5fr 1.8fr;
+  padding: 2%;
 }
 
-.project {
+aside {
+  outline: 1px solid red;
+}
+
+.projects {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+  gap: 1em;
+  margin-right: 1em;
+}
+
+.card {
+  outline: orangered 1px solid;
+  width: 350px;
+  height: 200px;
 }
 
 /* IMPORT FONTS AND ICONS */

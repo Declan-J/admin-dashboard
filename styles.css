@@ -7,6 +7,7 @@
   --card-accent: #f0b429;
   --profile-picture-height: 60px;
   --small-profile-picture-height: 40px;
+  --main-heading-padding: 0.5rem; 
 }
 
 html {
@@ -154,17 +155,26 @@ aside {
   outline: 1px solid red;
 }
 
+.heading {
+  padding-bottom: var(--main-heading-padding);
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-  gap: 1em;
-  margin-right: 1em;
+  gap: 1rem;
+  margin-right: 1rem;
 }
 
 .card {
-  outline: orangered 1px solid;
-  width: 350px;
+  padding: 1rem;
+  background-color: #fff;
   height: 200px;
+  outline: 1px solid black;
+}
+
+.card-heading {
+  padding-top: 0.2rem;
 }
 
 /* IMPORT FONTS AND ICONS */

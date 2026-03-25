@@ -8,6 +8,7 @@
   --profile-picture-height: 60px;
   --small-profile-picture-height: 40px;
   --main-heading-padding: 0.5rem; 
+  --card-padding: 1rem;
 }
 
 html {
@@ -144,7 +145,7 @@ nav .sidebar-section {
 
 main {
   display: grid;
-  background-color: gray;
+  background-color: lightgray;
   grid-column: 2/3;
   grid-row: 2/3;
   grid-template-columns: 5fr 1.8fr;
@@ -167,14 +168,29 @@ aside {
 }
 
 .card {
-  padding: 1rem;
+  position: relative;
+  padding: var(--card-padding);
+  padding-top: calc(var(--card-padding) + 1rem);
   background-color: #fff;
   height: 200px;
-  outline: 1px solid black;
+  border-left: var(--card-accent) 8px solid;
+  border-radius: 5px;
+}
+
+.card-buttons {
+  position: absolute;
+  display: flex;
+  gap: 1.3rem;
+  bottom: var(--card-padding);
+  right: var(--card-padding);
 }
 
 .card-heading {
   padding-top: 0.2rem;
+}
+
+hr {
+  margin: 10px;  
 }
 
 /* IMPORT FONTS AND ICONS */

@@ -174,7 +174,7 @@ aside {
   background-color: #fff;
   height: 200px;
   border-left: var(--card-accent) 8px solid;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .card-buttons {

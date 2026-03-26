@@ -83,6 +83,7 @@ header {
 
 .sub-text {
   font-size: 0.7rem;
+  color: rgb(70, 70, 70);
 }
 
 .bold-text {
@@ -203,15 +204,23 @@ aside .card {
 }
 
 aside {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1;
+  gap: 20px;
 }
 
-/* .announcements-wrapper > .card,
-.trending-wrapper > .card {
-  border-left: none;
-  height: inherit;
-} */
+aside .announcements-wrapper, aside .trending-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+aside .trending {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 .card-heading {
   padding-top: 0.2rem;
@@ -219,6 +228,17 @@ aside {
 
 hr {
   margin: 20px;
+}
+
+.trending-row {
+  display: grid;
+  grid-template-columns: calc(var(--small-profile-picture-height)) 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-username {
+  font-size: 0.7rem;
 }
 
 /* IMPORT FONTS AND ICONS */

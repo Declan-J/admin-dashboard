@@ -2,7 +2,8 @@
 
 Image Credits:
 
-Main profile: [Eris Marasigan](https://unsplash.com/photos/graffiti-on-a-red-wall-with-yellow-text-AmPjydGnWic)
+Main profile: 
+[Eris Marasigan](https://unsplash.com/photos/graffiti-on-a-red-wall-with-yellow-text-AmPjydGnWic)
 
 Other Images: 
 [Lidia Longorio](https://unsplash.com/photos/a-graffiti-of-a-rabbit-on-a-white-brick-wall-v8Jp0sxBcNo)
